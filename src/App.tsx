@@ -1,4 +1,7 @@
 import TableIndex from "./components/Table.Index";
+
+import googleCloudImg from "./assets/cloudLg.webp";
+
 const App = () => {
 	return (
 		<>
@@ -6,8 +9,8 @@ const App = () => {
 				<div className="bg-gray-900 text-blue-500 w-full m-auto text-center p-2 flex justify-center items-center">
 					<div className="">
 						<img
-							src="https://gccp-leaderboard-gray.vercel.app/_next/image?url=%2Fassets%2FcloudLg.png&w=48&q=75"
-							alt="me"
+              src={googleCloudImg}
+							alt="googleCloudImg"
 							width="40"
 							height="40"
 						/>
